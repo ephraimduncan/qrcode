@@ -8,7 +8,6 @@ Provide a text to generate an code for and the size of the image as a query para
 
 ```
 https://qr-service.vercel.app/api/code
-
 ```
 
 You will receive a `png` image with a size of 500\*500px
