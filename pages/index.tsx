@@ -15,7 +15,6 @@ export default function Home() {
 
         <div style={{ display: "flex", gap: 10 }}>
           <img
-            className={styles.avatar}
             src="/api/code?size=200&text=https://github.com/dephraiim/qrcode"
             width={200}
             height={200}
