@@ -15,7 +15,6 @@ export default async function handler(req: NextRequest, res: NextResponse) {
     size,
   });
 
-  // eslint-disable-next-line @next/next/no-img-element
   return new ImageResponse(<img alt="Vercel" height={size} src={base64} width={size} />, {
     width: size,
     height: size,
